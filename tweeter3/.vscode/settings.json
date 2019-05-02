@@ -1,0 +1,8 @@
+{
+    "appService.advancedCreation": true,
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/d5aa990f-2452-4701-bd8e-21959f91194c/resourceGroups/Group-1/providers/Microsoft.Web/sites/hello-world-1",
+    "appService.deploySubpath": ""
+}
