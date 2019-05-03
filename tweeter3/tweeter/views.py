@@ -12,9 +12,6 @@ import logging
 
 def index(request):
     # If fixtures are loaded, let's always log in as the user Bob.
-    print("TWEET PRINTING HERE")
-    logging.info("TWEET LOGGING HERE")
-
     bob = User.objects.filter(first_name='Bob').first()
     if bob:
         login(request, bob)
